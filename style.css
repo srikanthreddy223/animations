@@ -1,0 +1,64 @@
+.container {
+    margin: 100px;
+}
+.square {
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    margin: 20px;
+}
+.square1{
+    background-color: violet;
+    transition: transform 1s ease;
+}
+.square2{
+    background-color: rgb(20, 173, 89);
+    transition: transform 1s ease-in;
+}
+.square3{
+    background-color: rgb(189, 41, 41);
+    transition: transform 1s ease-in-out;
+}
+.square4{
+    background-color: rgb(51, 7, 155);
+    transition: transform 1s ease-in-out;
+}
+.square5{
+    background-color: rgb(125, 172, 38);
+    transition: transform 1s linear;
+}
+.container:hover .square{
+ transform: translate(1000px);
+}
+.container:hover .square{
+transform: scale(0.5);
+}
+   .container:hover .square{
+    transform: skew(10deg);
+   }
+   .container:hover .square{
+    transform: rotate(360deg);
+   }
+   .circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: aqua;
+    border: 10px solid rgb(12, 131, 236);
+    margin: 20px;
+    transition: boarder-color is ease-in-out;
+   }
+   .circle:hover{
+    border-color:goldenrod
+   }
+   .box{
+    margin-top: 50px;
+    height:300px;
+    width:300px;
+    background-image: -moz-repeating-linear-gradient(60deg,aqua,black 10px,yellowgreen 30px,pink 40px);
+transition: all 3s ease-in-out;
+   }
+   .box:hover{
+    background-image: repeating-linear-gradient(20deg,magenta,aqua,limegreen,yellow);
+    transform: rotate(1000deg) skew(15deg) scala(0.7);
+   }
